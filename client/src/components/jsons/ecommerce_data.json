@@ -1,0 +1,53 @@
+{
+  "Business Operations": [
+    {
+      "feature_name": "Performance Metrics",
+      "description": "Tracking key performance indicators to optimize {org}'s success.",
+      "examples": [
+        {
+          "name": "Sales Metrics",
+          "description": "Monitoring sales volume and revenue for {org}, providing {name} with crucial insights.",
+          "impact_metric_description": "Monthly sales at {org} increased by ",
+          "impact_metric": "10%"
+        }
+      ]
+    }
+  ],
+  "Automation AI": [
+    {
+      "feature_name": "Predictive Analytics",
+      "description": "Using AI to predict future trends for {org}, enabling {name} to make informed decisions.",
+      "examples": [
+        {
+          "title": {
+            "percentage": "15",
+            "riseOrDrop": "increase",
+            "type": "customer retention",
+            "where": "customer churn prediction",
+            "place": "{place}",
+            "time": "09:00"
+          },
+          "particulars": [
+            { "region": "Online", "percentage": "10%" },
+            { "region": "In-Store", "percentage": "5%" }
+          ],
+          "causeSummary": "The use of predictive analytics at {org} has improved customer retention, particularly through online and in-store channels."
+        }
+      ]
+    }
+  ],
+  "Data Management": [
+    {
+      "feature_name": "Data Governance",
+      "description": "Ensuring data quality and compliance at {org}.",
+      "examples": [
+        {
+          "metric": "Data Quality Issues",
+          "value": "40%",
+          "analysis": "Data quality issues at {org} reduced by 40%, ensuring better compliance.",
+          "benchmark": "Industry average: 35%"
+        }
+      ]
+    }
+  ]
+}

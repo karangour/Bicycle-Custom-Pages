@@ -1,0 +1,83 @@
+{
+  "Business Operations": [
+    {
+      "feature_name": "Delivery Efficiency",
+      "description": "Optimizing the delivery process for {org}.",
+      "examples": [
+        {
+          "name": "Route Optimization",
+          "description": "Using algorithms to find the fastest routes for {org}, helping {name} reduce delivery times.",
+          "impact_metric_description": "Delivery time at {org} reduced by ",
+          "impact_metric": "20%"
+        },
+        {
+          "name": "Fleet Management",
+          "description": "Managing {org}'s delivery vehicles and drivers, supporting {name} in lowering operational costs.",
+          "impact_metric_description": "Operational costs at {org} reduced by ",
+          "impact_metric": "15%"
+        }
+      ]
+    }
+  ],
+  "Automation AI": [
+    {
+      "feature_name": "Predictive Delivery Scheduling",
+      "description": "Using AI to optimize delivery schedules for {org}, enabling {name} to improve efficiency.",
+      "examples": [
+        {
+          "title": {
+            "percentage": "25",
+            "riseOrDrop": "rise",
+            "type": "delivery efficiency",
+            "where": "routes",
+            "place": "{place}",
+            "time": "09:45"
+          },
+          "particulars": [
+            { "region": "Urban Areas", "percentage": "25" },
+            { "region": "Rural Areas", "percentage": "10" }
+          ],
+          "causeSummary": "The analysis indicates that the most pronounced improvements were in urban area deliveries, particularly optimizing routes."
+        }
+      ]
+    }
+  ],
+  "Data Management": [
+    {
+      "feature_name": "Delivery Performance Analytics",
+      "description": "Analyzing delivery performance metrics to enhance {org}'s operations.",
+      "examples": [
+        {
+          "metric": "On-Time Delivery Rate",
+          "value": "20%",
+          "analysis": "On-time delivery rate at {org} improved by 20%.",
+          "benchmark": "Industry average: 85%"
+        },
+        {
+          "metric": "Delivery Time Analysis",
+          "value": "15%",
+          "analysis": "Average delivery time at {org} reduced by 15%.",
+          "benchmark": "Industry average: 20%"
+        }
+      ]
+    },
+    {
+      "feature_name": "Fleet Data Management",
+      "description": "Managing and analyzing data related to {org}'s delivery fleets.",
+      "examples": [
+        {
+          "metric": "Fuel Consumption Analysis",
+          "value": "10%",
+          "analysis": "Fuel costs at {org} reduced by 10%.",
+          "benchmark": "Industry average: 12%"
+        },
+        {
+          "metric": "Vehicle Maintenance Tracking",
+          "value": "20%",
+          "analysis": "Unplanned maintenance events at {org} reduced by 20%.",
+          "benchmark": "Industry average: 25%"
+        }
+      ]
+    }
+  ]
+}

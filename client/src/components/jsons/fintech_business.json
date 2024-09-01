@@ -1,0 +1,65 @@
+{
+  "Business Operations": [
+    {
+      "feature_name": "Financial Management",
+      "description": "Optimizing financial operations for {org}.",
+      "examples": [
+        {
+          "name": "Automated Payment Processing",
+          "description": "Processing payments quickly and accurately for {org}, helping {name} streamline operations.",
+          "impact_metric_description": "Payment processing time for {org} reduced by ",
+          "impact_metric": "25%"
+        },
+        {
+          "name": "Fraud Detection Systems",
+          "description": "Identifying and preventing fraudulent transactions for {org}, allowing {name} to maintain security.",
+          "impact_metric_description": "Fraudulent activities at {org} reduced by ",
+          "impact_metric": "30%"
+        }
+      ]
+    }
+  ],
+  "Automation AI": [
+    {
+      "feature_name": "Automated Loan Approval",
+      "description": "Using AI to approve loans automatically for {org}, making {name}'s job more efficient.",
+      "examples": [
+        {
+          "title": {
+            "percentage": "50",
+            "riseOrDrop": "reduction",
+            "type": "loan processing time",
+            "where": "loan approval systems",
+            "place": "{place}",
+            "time": "09:00"
+          },
+          "particulars": [
+            { "region": "Online", "percentage": "30%" },
+            { "region": "In-Person", "percentage": "20%" }
+          ],
+          "causeSummary": "The introduction of AI-driven loan approval systems at {org} has significantly reduced loan processing time, particularly in online and in-person transactions."
+        }
+      ]
+    }
+  ],
+  "Data Management": [
+    {
+      "feature_name": "Financial Data Analytics",
+      "description": "Analyzing financial data for insights that benefit {org}.",
+      "examples": [
+        {
+          "metric": "Risk Management Improvement",
+          "value": "20%",
+          "analysis": "Risk management at {org} improved by 20% through comprehensive financial data analysis.",
+          "benchmark": "Industry average: 18%"
+        },
+        {
+          "metric": "Customer Engagement Increase",
+          "value": "15%",
+          "analysis": "Customer engagement at {org} increased by 15% due to a better understanding of financial behavior.",
+          "benchmark": "Industry average: 10%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "Business Operations": [
+    {
+      "feature_name": "Delivery Efficiency",
+      "description": "Optimizing the delivery process for {org}.",
+      "examples": [
+        {
+          "name": "Route Optimization",
+          "description": "Using algorithms to find the fastest routes for {org}, helping {name} reduce delivery times.",
+          "impact_metric_description": "Delivery time at {org} reduced by ",
+          "impact_metric": "20%"
+        },
+        {
+          "name": "Fleet Management",
+          "description": "Managing {org}'s delivery vehicles and drivers, supporting {name} in lowering operational costs.",
+          "impact_metric_description": "Operational costs at {org} reduced by ",
+          "impact_metric": "15%"
+        }
+      ]
+    }
+  ],
+  
+  "Automation AI": [
+    {
+      "feature_name": "Automated Dispatch",
+      "description": "Using AI to automate the dispatching of deliveries for {org}, making {name}'s workflow more efficient.",
+      "examples": [
+        {
+          "title": {
+            "percentage": "35",
+            "riseOrDrop": "drop",
+            "type": "dispatch time",
+            "where": "all locations",
+            "place": "{place}",
+            "time": "instant"
+          },
+          "particulars": [
+            { "region": "North America", "percentage": "20" },
+            { "region": "Europe", "percentage": "15" }
+          ],
+          "causeSummary": "The automated dispatch system helped reduce dispatch times across all regions, particularly in North America and Europe."
+        }
+      ]
+    }
+  ],
+  
+  "Data Management": [
+    {
+      "feature_name": "Order Tracking Data",
+      "description": "Tracking data related to delivery orders for {org}.",
+      "examples": [
+        {
+          "metric": "Order Delivery Time",
+          "value": "98%",
+          "analysis": "The percentage of orders delivered on time has increased, ensuring a higher level of customer satisfaction.",
+          "benchmark": "Industry average: 92%"
+        },
+        {
+          "metric": "Real-Time Order Visibility",
+          "value": "Live Tracking",
+          "analysis": "Providing customers with real-time visibility into their orders has resulted in a significant decrease in customer service inquiries.",
+          "benchmark": "Typical response time: 10 minutes"
+        }
+      ]
+    }
+  ]
+}
