@@ -10,6 +10,113 @@
   }
 }
 
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueThin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueUltraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueRegular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueBlack.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Italics */
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueUltraLightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueLightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueMediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueBoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueBlackItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueHeavy.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/helvetica-neue/HelveticaNeueHeavyItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+
 @layer components {
   .page {
     @apply flex flex-col justify-center items-center w-full h-full;
@@ -18,13 +125,20 @@
     @apply flex flex-col justify-center items-center w-full h-full pt-3;
   }
   .heading {
-    @apply font-lexend text-5xl font-bold text-black mt-10 mb-4;
+    @apply font-helvetica text-5xl font-bold text-blue mt-10 mb-4;
   }
   .sub-heading {
-    @apply font-lexend text-xl font-medium text-black mb-4;
+    @apply font-helvetica text-xl font-bold text-blue mb-4;
   }
   .body {
-    @apply font-lexend-d text-sm font-normal text-black text-justify mt-4 mb-4 pl-3 pr-3;
+    @apply font-helvetica text-sm font-normal text-blue text-justify mt-4 mb-4 pl-3 pr-3;
+  }
+  .menu {
+    @apply font-helvetica font-bold text-lg  text-blue 
+  }
+
+  .color-heading {
+    @apply font-helvetica font-bold text-lg  text-blue 
   }
   .clip-path-custom {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -32,7 +146,7 @@
   }
 
   .key-features {
-    @apply flex items-center bg-dark-grey p-2 rounded-lg mt-2
+    @apply flex items-center bg-blue p-2 rounded-lg mt-2
   }
 
   .pillar-bg-data-management {
@@ -40,7 +154,7 @@
   }
 
   .pillar-bg-automation-ai {
-    @apply bg-dark-grey;
+    @apply bg-blue;
   }
 
   .pillar-bg-business-operations {

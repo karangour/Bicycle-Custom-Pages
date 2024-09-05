@@ -21,6 +21,18 @@ export default {
       fontFamily: {
         "lexend": ["Lexend", "sans-serif"],
         "lexend-d": ["Lexend Deca", "sans-serif"],
+        helvetica: ['HelveticaNeue', 'sans-serif'],
+      },
+      fontWeight: {
+        thin: 100,
+        ultralight: 200,
+        light: 300,
+        regular: 400,
+        medium: 500,
+        bold: 700,
+        black: 800,
+        heavy: 900,
+
       },
 
     },
