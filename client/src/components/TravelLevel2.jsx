@@ -3,12 +3,14 @@ import { useNavigate } from "react-router-dom";
 
 export default function TravelLevel2() {
   const [email, setEmail] = useState("");
-  const org = "BMW Group";
+  const name = "Karan Gour";
+  const org = "Yatra";
+
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/travelbizz3", { state: { email, org } }); // Navigate to Level 3 with email
+    navigate("/travel3bizz", { state: { email, name, org } }); // Navigate to Level 3 with email
   };
 
   return (

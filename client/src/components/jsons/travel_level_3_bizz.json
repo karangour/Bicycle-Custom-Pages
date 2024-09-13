@@ -1,0 +1,87 @@
+{
+  "section_heading": {
+    "subHeading": "Sub-heading Text",
+    "heading": "Welcome to <span class='text-red'>${org}</span>'s Travel-Business vertical",
+    "description": "This description specifically focuses on <span class='text-red'>${name}</span>'s organization, ensuring targeted insights and strategies that align with <span class='text-red'>${org}</span>'s needs and growth potential.",
+    "buttonText": "Explore ${org} >",
+    "linkText": "Start now >",
+    "heroImage": "HERO IMAGE"
+  },
+  "pillars": [
+    {
+      "exists": true,
+      "subHeading": "Pillar 1 Sub Text",
+      "heading": "Heading about Pillar One",
+      "description": "Thirty-seven words are written here to describe the pillar within the travel-business subvertical, specifically focusing on the user's organization. This tailored insight highlights how the pillar supports the company’s growth, aligning with its strategic goals.",
+      "features": [
+        {
+          "heading": "Feature 1 Heading",
+          "description": "This description contains exactly twenty-eight words. This feature enables seamless integration between various platforms, significantly improving operational efficiency and minimizing manual tasks. <span class='text-red'>${name}</span>'s team benefits from real-time updates, resulting in enhanced collaboration.<br><br>This feature simplifies workflows, improves response times, and boosts productivity. It is exactly seventeen words.",
+          "image": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDd8fHRyYXZlbHxlbnwwfHx8fDE2MzQ3Nzc5NTg&ixlib=rb-1.2.1&q=80&w=400",
+            "https://images.unsplash.com/photo-1725743537422-b36edd83b46a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1725714354934-2977a57f8fd5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1725785897139-1a7834b62e2f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D"
+          ],
+          "bullets": [
+            "Item One",
+            "Item Two",
+            "Item Three",
+            "Item Four",
+            "Item Five",
+            "Item Six",
+            "Item Seven",
+            "Item Eight",
+            "Item Nine",
+            "Item Ten",
+            "Item Eleven",
+            "Item Twelve",
+            "Item Thirteen",
+            "Item Fourteen",
+            "Item Fifteen",
+            "Item Sixteen",
+            "Item Seventeen",
+            "Item Eighteen",
+            "Item Nineteen",
+            "Item Twenty"
+          ]
+        },
+        {
+          "heading": "Feature 2 Heading",
+          "description": "Twenty-eight words are written here to describe this feature within the fraud detection subvertical, specifically focusing on <span class='text-red'>${org}</span>. This tailored insight highlights how fraud prevention enhances security, aligning with <span class='text-red'>${org}</span>’s strategic goals.",
+          "image": "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHRyYXZlbHxlbnwwfHx8fDE2MzQ3Nzc5NTg&ixlib=rb-1.2.1&q=80&w=400"
+        },
+        {
+          "heading": "Feature 3 Heading",
+          "description": "Twenty-eight words are written here to describe how this feature optimizes payment processing for <span class='text-red'>${org}</span>. This insight ensures improved transaction success rates, aligning with <span class='text-red'>${org}</span>’s revenue retention and growth strategies.",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fHRyYXZlbHxlbnwwfHx8fDE2MzQ3Nzc5NTg&ixlib=rb-1.2.1&q=80&w=400"
+        }
+      ]
+    },
+    {
+      "exists": true,
+      "subHeading": "Pillar 2 Sub Text",
+      "heading": "Heading about Pillar Two And More Words",
+      "description": "Twenty-five words are used here to explain how <span class='text-red'>${org}</span> can easily implement new business models, attract customers, and boost revenue growth, all supported by a complete payment platform.",
+      "features": [
+        {
+          "heading": "Feature 1 for Pillar 2",
+          "description": "Twenty-seven words are written here to describe how <span class='text-red'>${org}</span> can easily manage subscriptions and memberships, set up recurring billing, send invoices, and more with built-in solutions.",
+          "image": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fHRyYXZlbHxlbnwwfHx8fDE2MzQ3Nzc5NTg&ixlib=rb-1.2.1&q=80&w=400"
+        },
+        {
+          "heading": "Feature 2 for Pillar 2",
+          "description": "Twenty-four words are written here to explain how <span class='text-red'>${org}</span> can create customized point-of-sale systems and unify both online and offline sales into one seamless omnichannel experience.",
+          "image": "https://images.unsplash.com/photo-1473625247510-8ceb1760943f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fHRyYXZlbHxlbnwwfHx8fDE2MzQ3Nzc5NTg&ixlib=rb-1.2.1&q=80&w=400"
+        }
+      ]
+    },
+    {
+      "exists": false,
+      "subHeading": "",
+      "heading": "",
+      "description": "",
+      "features": []
+    }
+  ]
+}

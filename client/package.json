@@ -15,7 +15,9 @@
     "react-accessible-accordion": "^5.0.0",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.1",
-    "react-spring": "^9.7.4"
+    "react-slick": "^0.30.2",
+    "react-spring": "^9.7.4",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

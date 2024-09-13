@@ -15,7 +15,7 @@ export default {
         green: "#3ac672",
         blue: "#21252F",
         "dark-white": "#F4F4F4",
-        "light-blue": "#d7dfe1",
+        "light-blue": "#f6f9fc",
         "dark-grey": "#514b60"
       },
       fontFamily: {

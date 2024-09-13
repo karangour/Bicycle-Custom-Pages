@@ -33,13 +33,6 @@
 
 @font-face {
   font-family: 'HelveticaNeue';
-  src: url('./fonts/helvetica-neue/HelveticaNeueRegular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'HelveticaNeue';
   src: url('./fonts/helvetica-neue/HelveticaNeueMedium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
@@ -134,7 +127,7 @@
     @apply font-helvetica text-sm font-normal text-blue text-justify mt-4 mb-4 pl-3 pr-3;
   }
   .menu {
-    @apply font-helvetica font-bold text-lg  text-blue 
+    @apply font-helvetica font-light text-lg  text-blue 
   }
 
   .color-heading {
