@@ -39,6 +39,12 @@ export default function VerticalPage() {
         "Faced with sensitive data, Bicycle's AI-powered insights deliver fast anomaly detection and response.",
       path: "/fintech2", // Directly navigate to level 2 page
     },
+    {
+      logo: bicyclelogo,
+      name: "Pie Chart",
+      description: "",
+      path: "/piechart",
+    }
   ];
 
   // Handle click and navigate to the respective Level 2 page
@@ -56,7 +62,7 @@ export default function VerticalPage() {
           <div
             key={index}
             onClick={() => handleDivClick(item.path)}
-            className="flex justify-center w-[36rem] h-80 items-center bg-light-blue p-2 m-2 mb-0 rounded-lg cursor-pointer hover:bg-red-500 hover:shadow-lg active:bg-blue-700 active:shadow-none transition-all duration-200"
+            className="flex justify-center w-[36rem] h-80 items-center bg-light-blue shadow-lg p-2 m-2 mb-0 rounded-lg cursor-pointer hover:bg-red-500 hover:shadow-[0_8px_15px_rgba(0,0,0,0.5)] active:bg-blue-700 active:shadow-none transition-all duration-200"
           >
             <img
               src={item.logo}

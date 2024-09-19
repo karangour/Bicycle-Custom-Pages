@@ -202,7 +202,7 @@ export default function TravelLevel3Bizz() {
                 ></p>
               </div>
             </div>
-            <div className="flex justify-center items-center w-[1300px] h-[700px] border-[12px] border-red bg-white z-20 relative m-0 -mr-[130px] rounded-xl bg-white shadow-[0_8px_15px_rgba(0,0,0,0.5)]">
+            <div className="flex justify-center items-center w-[1300px] h-[700px] border-[12px] border-red bg-white z-20 relative m-0 -mr-[130px] rounded-xl shadow-[0_8px_15px_rgba(0,0,0,0.5)]">
               <h1
                 className="heading text-dark-grey"
                 dangerouslySetInnerHTML={{
